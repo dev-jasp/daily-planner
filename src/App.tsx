@@ -5,7 +5,7 @@ import './index.css';
 function App() {
 
   return (
-    <div className=''>
+    <div className='bg-dark'>
      <Header/>
      <Main/>
     </div>
