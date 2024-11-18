@@ -14,6 +14,13 @@ function Board() {
                 setCards={setCards} 
             />
             <Column 
+                title="TO DO" 
+                column="to do" 
+                headingColor="blue-500" 
+                cards={cards} 
+                setCards={setCards} 
+            />
+            <Column 
                 title="In progress" 
                 column="doing" 
                 headingColor="blue-500" 
