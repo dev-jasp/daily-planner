@@ -1,13 +1,13 @@
 import Header from './Components/Header';
-import Main from './Components/Main'; 
+// import Main from './Components/Main'; 
 import './index.css';
 import Board from './Components/Board';
 function App() {
 
   return (
-    <div className='bg-dark'>
+    <div className='bg-lightest'>
      <Header/>
-     <Main/>
+     {/* <Main/> */}
      <Board />
     </div>
   )
