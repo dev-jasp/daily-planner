@@ -5,32 +5,34 @@ function Board() {
     const [cards, setCards] = useState<any[]>([]); 
 
     return (
-        <div className="flex h-full w-full gap-3 overflow-scroll p-12">
+        <div className="flex h-screen w-full gap-3 overflow-scroll p-12">
             <Column 
-                title="Backlog" 
-                column="backlog" 
-                headingColor="blue-500" 
+                title="Monday" 
+                headingColor="blue-500 font-bold" 
                 cards={cards} 
                 setCards={setCards} 
             />
             <Column 
-                title="TO DO" 
-                column="to do" 
-                headingColor="blue-500" 
+                title="Tuesday" 
+                headingColor="blue-500 font-bold" 
                 cards={cards} 
                 setCards={setCards} 
             />
             <Column 
-                title="In progress" 
-                column="doing" 
-                headingColor="blue-500" 
+                title="Wednesday" 
+                headingColor="blue-500 font-bold" 
                 cards={cards} 
                 setCards={setCards} 
             />
             <Column 
-                title="Complete" 
-                column="done" 
-                headingColor="blue-500" 
+                title="Thursday" 
+                headingColor="blue-500 font-bold" 
+                cards={cards} 
+                setCards={setCards} 
+            />
+            <Column 
+                title="Friday" 
+                headingColor="blue-500 font-bold" 
                 cards={cards} 
                 setCards={setCards} 
             />

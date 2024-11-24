@@ -3,12 +3,11 @@ import React, { useState } from 'react';
 interface ColumnProps {
     title: string;
     headingColor: string;
-    column: string;
     cards: any[];
     setCards: React.Dispatch<React.SetStateAction<any[]>>; 
 }
 
-const Column: React.FC<ColumnProps> = ({ title, headingColor, column, cards, setCards }) => {
+const Column: React.FC<ColumnProps> = ({ title, headingColor, cards, setCards }) => {
     const [active, setActive] = useState(false);
 
     return (
