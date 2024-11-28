@@ -4,10 +4,11 @@ interface ColumnProps {
     title: string;
     headingColor: string;
     cards: any[];
+    column: string;
     setCards: React.Dispatch<React.SetStateAction<any[]>>; 
 }
 
-const Column: React.FC<ColumnProps> = ({ title, headingColor, cards, setCards }) => {
+const Column: React.FC<ColumnProps> = ({ title, headingColor, column, cards, setCards }) => {
     const [active, setActive] = useState(false);
 
     return (
