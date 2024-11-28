@@ -5,7 +5,7 @@ function Board() {
     const [cards, setCards] = useState<any[]>([]); 
 
     return (
-        <div className="flex h-screen w-full gap-3 overflow-scroll p-12">
+        <div className="grid grid-cols-2 gap-3 h-screen w-full  px-14 py-12">
             <Column 
                 title="Monday" 
                 headingColor="blue-500 font-bold" 
@@ -32,6 +32,18 @@ function Board() {
             />
             <Column 
                 title="Friday" 
+                headingColor="blue-500 font-bold" 
+                cards={cards} 
+                setCards={setCards} 
+            />
+            <Column 
+                title="Saturday" 
+                headingColor="blue-500 font-bold" 
+                cards={cards} 
+                setCards={setCards} 
+            />
+            <Column 
+                title="Sunday" 
                 headingColor="blue-500 font-bold" 
                 cards={cards} 
                 setCards={setCards} 
