@@ -4,7 +4,7 @@ import { DeleteZone } from './DeleteZone';
 import { DAYS_OF_WEEK, DEFAULT_TASKS } from '../lib/Constants';
 import { Task } from '../lib/Types';
 
-export const PlannerBoard: React.FC = () => {
+const PlannerBoard: React.FC = () => {
   const [tasks, setTasks] = useState<Task[]>(DEFAULT_TASKS);
 
   return (
@@ -21,3 +21,5 @@ export const PlannerBoard: React.FC = () => {
     </div>
   );
 };
+
+export {PlannerBoard}; 
