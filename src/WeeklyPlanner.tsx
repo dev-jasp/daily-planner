@@ -1,5 +1,5 @@
-import { Header } from './components/Header.tsx';
-import { PlannerBoard } from './components/PlannerBoard.tsx';
+import { Header } from './components/Header';
+import { PlannerBoard } from './components/PlannerBoard';
 
 const WeeklyPlanner: React.FC = () => {
   return (
