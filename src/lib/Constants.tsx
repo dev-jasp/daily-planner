@@ -1,3 +1,5 @@
+import { Task } from '../lib/Types'
+
 export const DAYS_OF_WEEK = [
     "Monday",
     "Tuesday",

@@ -1,16 +1,12 @@
-import Header from './Components/Header';
- 
-import './index.css';
-import Board from './Components/Board';
-function App() {
 
+import WeeklyPlanner from './WeeklyPlanner';
+
+const App = () => {
   return (
-    <div className='bg-lightest'>
-     <Header/>
-     {/* <Main/> */}
-     <Board />
+    <div className="min-h-screen w-full">
+      <WeeklyPlanner />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
