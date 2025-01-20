@@ -1,8 +1,8 @@
-import { Header } from './Components/Header'
-import { PlannerBoard } from './Components/PlannerBoard';
+import React from 'react';
+import { Header } from './components/Header';  
+import { PlannerBoard } from './components/PlannerBoard';
 
 const WeeklyPlanner: React.FC = () => {
-  console.log('WeeklyPlanner rendering');
   return (
     <div className="min-h-screen w-full bg-neutral-900 text-neutral-50">
       <Header />
