@@ -53,7 +53,7 @@ export const AddTask: React.FC<AddTaskProps> = ({ day, setTasks }) => {
             </button>
             <button
               type="submit"
-              className="flex items-center gap-1 rounded bg-violet-500 px-3 py-1 text-xs text-white hover:bg-violet-600"
+              className="flex items-center gap-1 rounded bg-amber-600 px-3 py-1 text-xs text-white hover:bg-amber-500"
             >
               Add Task
               <CiCirclePlus className="h-3 w-3" />
