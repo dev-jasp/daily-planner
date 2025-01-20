@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TaskItem } from '../Components/TaskItem';
+import { TaskItem } from './TaskItem';
 import { AddTask } from './AddTask';
 import { DayColumnProps, Task } from '../lib/Types';
 
