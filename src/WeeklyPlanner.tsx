@@ -1,4 +1,4 @@
-import { Header } from './components/Header'; 
+import { Header } from './components/Header';
 import { PlannerBoard } from './components/PlannerBoard'; 
 
 const WeeklyPlanner: React.FC = () => {
