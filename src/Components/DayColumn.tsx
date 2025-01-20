@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TaskITem} from '../Components/TaskItem';
+import { TaskItem } from '../Components/TaskItem';
 import { AddTask } from './AddTask';
 import { DayColumnProps, Task } from '../lib/Types';
 
@@ -53,7 +53,7 @@ export const DayColumn: React.FC<DayColumnProps> = ({ day, tasks, setTasks }) =>
         } p-4`}
       >
         {filteredTasks.map((task) => (
-          <TaskITem key={task.id} task={task} handleDragStart={handleDragStart} />
+          <TaskItem key={task.id} task={task} handleDragStart={handleDragStart} />
         ))}
         <AddTask day={day} setTasks={setTasks} />
       </div>
